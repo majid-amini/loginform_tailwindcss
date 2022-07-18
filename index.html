@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+    <div class="container block md:grid grid-cols-2 mx-auto p-2 text-center mt-4 rounded-lg">
+        <!-- <img src="./img/tailwindcss_img.jpg" alt=""> -->
+        <div class="container_left hidden md:block">
+            <img src="./img/login-roadmap.svg" alt="">
+        </div>
+        <div class="container_right block w-full bg-white h-full">
+            <h3 class="text-2xl">Welcome to oracles trading journal 👋</h3>
+            <form action="" class="h-screen flex flex-col space-y-6 p-5"> 
+                <h3 class="text-3xl font-bold">Login to your account</h3>
+                <div class="flex flex-col items-start">
+                    <label class="font-bold" for="email">Email</label>
+                    <input class="w-full bg-gray-200 p-1 rounded-md" type="email" name="" placeholder="please Enter your email">
+                </div>
+                <div class="flex flex-col items-start">
+                    <label class="font-bold" for="password">Password</label>
+                    <input class="w-full bg-gray-200 p-1 rounded-md" type="password" name="" placeholder="please Enter your password">
+                </div>
+                <div class="remember_password flex justify-between w-full">
+                    <div class="remember_password_left">
+                        <input type="checkbox" name="" id="">
+                        <span>remember password</span>
+                    </div>
+                    <div class="remember_password_right">
+                        <a href="">Forgot Password?</a>
+                    </div>
+                    
+                </div>
+                <div class="w-full bg-red-500 rounded-full p-2">
+                    <button>Login</button>
+                </div>
+            </form>
+            <div class="">
+                <span>Don't have account</span>
+                <a href="">Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

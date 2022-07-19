@@ -5,38 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Login page</title>
 </head>
-<body class="bg-gray-200">
-    <div class="container block  mx-auto text-center rounded-lg md:grid md:grid-cols-1/5col ">
+<body>
+    <div class="block text-center rounded-lg md:grid md:grid-cols-1/5col">
         <!-- <img src="./img/tailwindcss_img.jpg" alt=""> -->
         <div class="container_left hidden bg-gray-100 md:block">
-            <img class="h-screen object-cover" src="./img/login-roadmap.svg" alt="">
+            <img class="h-screen w-full object-cover" src="./img/login-roadmap.svg" alt="">
         </div>
-        <div class="container_right flex flex-col justify-center bg-white h-screen">
+        <div class="container_right flex flex-col justify-center bg-white h-screen p-5">
             <h3 class="text-1xl mt-20 text-left pl-5 font-light">Welcome to oracles trading journal👋</h3>
             <form action="" class="h-screen flex flex-col px-5 pt-5 mt-5 gap-5"> 
                 <h3 class="text-2xl font-medium text-left">Login to your account</h3>
                 <div class="flex flex-col items-start gap-1">
                     <label class="font-medium text-sm" for="email">Email</label>
-                    <input class="w-full bg-blue-100 p-1 rounded-md text-sm outline-none" type="email" name="" placeholder="please Enter your email">
+                    <input class="w-full bg-blue-50 p-2 rounded-md text-sm outline-none" type="email" name="email" placeholder="please Enter your email">
                 </div>
                 <div class="flex flex-col items-start gap-1">
                     <label class="font-medium text-sm" for="password">Password</label>
-                    <input class="w-full bg-blue-100 p-1 rounded-md outline-none text-sm" type="password" name="" placeholder="please Enter your password">
+                    <input class="w-full bg-blue-50 p-2 rounded-md outline-none text-sm" type="password" name="password" placeholder="please Enter your password">
                 </div>
                 <div class="remember_password flex justify-between w-full">
-                    <div class="remember_password_left flex items-center gap-1">
-                        <input type="checkbox" name="" id="">
+                    <label class="remember_password_left flex items-center gap-1 cursor-pointer">
+                        <input type="checkbox">
                         <span class="text-sm">remember password</span>
-                    </div>
+                    </label>
                     <div class="remember_password_right">
-                        <a class="text-blue-500 text-sm" href="">Forgot Password?</a>
+                        <a class="text-blue-500 text-sm" href="">Forget Password?</a>
                     </div>
                     
                 </div>
                 <div>
-                    <button class="w-full bg-blue-500 text-white rounded-full p-2 transition-all duration-300 ease-in-out">Login</button>
+                    <button class="w-full bg-blue-500 text-white rounded-md p-2 transition-all duration-300 ease-in-out hover:bg-blue-400">Login</button>
                 </div>
             </form>
             <div class="pb-5">
@@ -45,5 +45,8 @@
             </div>
         </div>
     </div>
+
+
+    <script src="App.js"></script>
 </body>
 </html>

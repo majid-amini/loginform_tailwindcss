@@ -21,7 +21,7 @@ module.exports = {
         //change style and variable
         // 'variable' : 'your assets exp : '1fr 2fr' exp2 : 'reapet(auto-fit , minmax(10rem , 1fr))'
         // to use add this class name : grid-cols-4col
-        'column' : '1fr 3fr' , 
+        '1/5col' : '1.5fr 1fr' , 
         '4col' : '4fr 1fr' , 
       } ,
       gridTemplateRows : {

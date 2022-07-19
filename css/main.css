@@ -799,6 +799,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
+.inputbg {
+  background: rgb(205,213,226);
+  background: linear-gradient(90deg, rgba(205,213,226,1) 22%, rgba(229,232,238,0.23853291316526615) 100%);
+}
 
 @media (min-width: 768px) {
   .md\:block {
